@@ -16,6 +16,7 @@ add_local_paths("FabLogo")
 
 
 @task
+@load_plugin_env_vars("FabLogo")
 def run_netlogo(config, **args):
     """Submit a Dummy job to the remote queue.
     The job results will be stored with a name pattern as defined in the environment,

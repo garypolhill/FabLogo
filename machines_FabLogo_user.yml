@@ -1,0 +1,6 @@
+default:
+  netlogo_install: "/usr/local"
+
+localhost:
+  netlogo_install: "/Applications/'NetLogo 6.3.0'"
+
