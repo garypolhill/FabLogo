@@ -4,4 +4,4 @@ $run_prefix
 
 /usr/bin/env > env.log
 echo "Starting NetLogo job, which will print the contents of dummy.txt."
-$netlogo_install/netlogo-headless.sh --model "$config/$netlogo_model" --setup-file "$config/$netlogo_setup" --experiment "$netlogo_expt" --threads 1 --table "$netlogo_expt.csv" > "$netlogo_expt.out" 2> "$netlogo_expt.err"
+$netlogo_install/netlogo-headless.sh --model "$model" --setup-file "$setup" --experiment "$expt" --threads 1 --table "$expt.csv" > "$expt.out" 2> "$expt.err"
